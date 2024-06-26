@@ -7,7 +7,7 @@ import Carousel from "./Carousel";
 export default {
   title: "Carousel",
   component: Carousel,
-} as Meta;
+} as Meta; 
 
 const AbsoluteBlock = styled.div`
   position: absolute;

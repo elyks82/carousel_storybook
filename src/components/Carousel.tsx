@@ -66,7 +66,7 @@ const Carousel: React.FC<CarouselProps> = ({
       setIsTransitioning(true);
       setCurrentIndex((prevIndex) => prevIndex - 1);
     }
-  };
+  }; 
 
   const handleNext = () => {
     if (isInfinite || currentIndex < totalSlides - visibleItems) {
